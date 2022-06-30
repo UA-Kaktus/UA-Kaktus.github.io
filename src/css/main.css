@@ -1,0 +1,161 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+header {
+    position: relative;
+    height: 50px;
+}
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #212121;
+    position: fixed;
+    z-index: 100;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.nav-menu .nav-item {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    border-right: 2px dotted white;
+    padding-right: 47px;
+}
+.nav-menu .nav-item:last-child {
+    border: none;
+    padding-right: 0;
+}
+.nav-menu .nav-item a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.subheader {
+    height: 87px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 18px;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+.subheader__logo {
+    max-width: 100%;
+    height: 32px;
+    display: block;
+}
+.subheader__text {
+    font-weight: 300;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top: 6px;
+    opacity: 0.5;
+}
+.subheader__call {
+    font-weight: 300;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-align: right;
+}
+.subheader__phone {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: right;
+    display: block;
+}
+.subheader__btn {
+    width: 176px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+}
+.subheader__btn:active {
+    transform: translateY(2px);
+    transition-duration: 0.2s;
+}
+.promo__header {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+.promo__subheader {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 22px;
+}
+.promo__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 116px;
+}
+.promo__btn {
+    display: block;
+    width: 259px;
+    height: 63px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.promo {
+    min-height: 800px;
+    padding: 200px 0 185px 0;
+    background: url('../img/uber_bg.jpg') center center/cover no-repeat;
+}
+.adv__main-headline {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 77px 0 16px 0;
+}
+.adv__item {
+    display: flex;
+    align-items: center;
+}
+.adv__img {
+    background-color: #1EACC7;
+    min-width: 116px;
+    min-height: 116px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.adv__text1 h3.adv__headline {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+.adv__text1 .adv__descr {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
