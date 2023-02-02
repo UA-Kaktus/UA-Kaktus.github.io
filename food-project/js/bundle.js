@@ -270,22 +270,20 @@ function forms() {
             `;
             form.insertAdjacentElement('afterend', statusMessage);
 
-            // const formData = new FormData(form);
+            const formData = new FormData(form);
 
-            // const json = JSON.stringify(Object.fromEntries(formData.entries()));
+            const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-            // postData('http://localhost:3000/requests', json)
-            // .then(data => {
-            //     console.log(data);
-            //     showThanksModal(message.success);
-            // }).catch(() => {
-            //     showThanksModal(message.failure);
-            // }).finally(() => {
-            //     form.reset();
-            //     statusMessage.remove();
-            // });
-
-            showThanksModal(message.success)
+            postData('http://localhost:3000/requests', json)
+            .then(data => {
+                console.log(data);
+                showThanksModal(message.success);
+            }).catch(() => {
+                showThanksModal(message.failure);
+            }).finally(() => {
+                form.reset();
+                statusMessage.remove();
+            });
         });
     }
 
