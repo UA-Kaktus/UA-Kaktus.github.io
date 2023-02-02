@@ -46,12 +46,13 @@ function forms() {
             .then(data => {
                 console.log(data);
                 showThanksModal(message.success);
-                statusMessage.remove();
             }).catch(() => {
                 showThanksModal(message.failure);
             }).finally(() => {
                 form.reset();
+                statusMessage.remove();
             });
+
         });
     }
 
@@ -59,7 +60,7 @@ function forms() {
         const prevModalDialog = document.querySelector('.modal__dialog');
 
         prevModalDialog.classList.add('hide');
-        openModal();
+        // openModal();
 
         const thanksModal = document.createElement('div');
         thanksModal.classList.add('modal__dialog');
