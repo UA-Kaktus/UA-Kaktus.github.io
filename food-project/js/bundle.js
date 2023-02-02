@@ -269,21 +269,23 @@ function forms() {
                 margin: 0 auto;
             `;
             form.insertAdjacentElement('afterend', statusMessage);
-        
-            const formData = new FormData(form);
 
-            const json = JSON.stringify(Object.fromEntries(formData.entries()));
+            // const formData = new FormData(form);
 
-            postData('http://localhost:3000/requests', json)
-            .then(data => {
-                console.log(data);
-                showThanksModal(message.success);
-                statusMessage.remove();
-            }).catch(() => {
-                showThanksModal(message.failure);
-            }).finally(() => {
-                form.reset();
-            });
+            // const json = JSON.stringify(Object.fromEntries(formData.entries()));
+
+            // postData('http://localhost:3000/requests', json)
+            // .then(data => {
+            //     console.log(data);
+            //     showThanksModal(message.success);
+            // }).catch(() => {
+            //     showThanksModal(message.failure);
+            // }).finally(() => {
+            //     form.reset();
+            //     statusMessage.remove();
+            // });
+
+            showThanksModal(message.success)
         });
     }
 
@@ -291,7 +293,7 @@ function forms() {
         const prevModalDialog = document.querySelector('.modal__dialog');
 
         prevModalDialog.classList.add('hide');
-        openModal();
+        // openModal();
 
         const thanksModal = document.createElement('div');
         thanksModal.classList.add('modal__dialog');
