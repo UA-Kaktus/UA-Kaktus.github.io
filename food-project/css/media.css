@@ -1,0 +1,313 @@
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1100px;
+    }
+    .sidepanel {
+        left: 10px;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .sidepanel {
+        display: none;
+    }
+    .tabcontainer {
+        width: 100%;
+    }
+    .tabcontent__descr {
+        padding: 20px;
+        font-size: 20px;
+        height: 220px;
+        top: 330px;
+    }
+    .offer .bgc_y {
+        width: 100%;
+    }
+    .offer__advantages {
+        width: 300px;
+    }
+    .menu__item {
+        width: 300px;
+    }
+    .order__input {
+        width: 200px;
+        padding: 0 10px;
+    }
+    .promotion__timer .timer {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .header {
+        padding: 0 50px;
+    }
+    .header__left-block {
+        min-width: 450px;
+    }
+    .header__right-block {
+        padding-left: 20px;
+    }
+    .btn {
+        width: 200px;
+        height: 55px;
+    }
+    .tabcontent__descr {
+        font-size: 18px;
+        height: 180px;
+        top: 220px;
+        line-height: 1.5;
+    }
+    .tabheader__items {
+        margin-top: 15px;
+    }
+    .preview__life {
+        display: none;
+    }
+    .offer__text{
+        width: 400px;
+    }
+    .offer .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .offer__slider {
+        order: 1;
+        grid-column-end: 2;
+    }
+    .offer__advantages {
+        order: 2;
+        grid-column-end: 2;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .calculating__choose_medium {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .calculating__choose_big {
+        width: 100%;
+        gap: 20px;
+    }
+    .menu__item {
+        width: 230px;
+    }
+    .order__form {
+        padding: 0 30px;
+    }
+    .order__input {
+        font-size: 16px;
+        width: 180px;
+    }
+    form.order__form .btn {
+        height: 50px;
+    }
+    .promotion__timer .timer {
+        padding-left: 20px;
+    }
+    .promotion__timer .timer__block span {
+        font-size: 40px;
+        margin-top: 13px;
+    }
+    .promotion__timer .timer__block {
+        width: 80px;
+        height: 100px;
+    }
+    .promotion {
+        padding: 70px 0 100px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .header__left-block {
+        min-width: 300px;
+    }
+    .btn {
+        width: 160px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .header__link {
+        margin-right: 25px;
+    }
+    .header__logo {
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .header__link:after {
+        bottom: -9px;
+    }
+    .tabcontent__descr {
+        right: auto;
+        left: 20px;
+        width: 500px;
+        top: 210px;
+    }
+    .divider:nth-child(4) {
+        display: none;
+    }
+    .offer .container:nth-child(2) {
+        display: grid;
+    }
+    .offer__text {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 100%;
+    }
+    .offer__action {
+        grid-column-start: 2;
+    }
+    .offer__slider {
+        width: 540px;
+    }
+    .menu .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        justify-items: center;
+    }
+    .menu__item {
+        width: 400px;
+    }
+    .order__input {
+        width: 120px;
+    }
+    .promotion__timer .timer__block span {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .promotion__timer .timer__block {
+        width: 60px;
+        height: 80px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 400px;
+    }
+    .modal__dialog {
+        max-width: 300px;
+    }
+    .modal__input {
+        width: 100%;
+    }
+    .modal .btn {
+        width: 100%;
+    }
+    .header {
+        padding: 0 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .header__right-block {
+        display: block;
+        width: 150px;
+        padding-left: 0;
+        justify-self: center;
+    }
+    .tabheader {
+        width: 120px;
+        padding: 15px 10px;
+    }
+    .tabheader__items {
+        padding-left: 7px;
+        overflow: hidden;
+    }
+    .tabheader__item {
+        font-size: 13px;
+    }
+    .tabheader__item_active {
+        font-size: 18px;
+    }
+    .tabcontent__descr {
+        left: 0;
+        width: 400px;
+        top: 240px;
+        font-size: 15px;
+        height: auto;
+    }
+    .divider:nth-child(4) {
+        position: relative;
+        display: block;
+        top: -180px;
+    }
+    .preview {
+        padding: 28px 0 200px 0;
+    }
+    .offer__action {
+        margin-top: 10px;
+    }
+    .offer__slider {
+        width: 380px;
+    }
+    .offer .container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .calculating__choose_medium, .calculating__choose_big {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 6px;
+    }
+    .calculating__choose-item, .calculating__choose_big .calculating__choose-item {
+        width: 130px;
+    }
+    .calculating__choose_big{
+        justify-content: space-around;
+    }
+    .calculating__total, .calculating__divider {
+        width: 100%;
+    }
+    .menu__item {
+        width: 300px;
+    }
+    .order__form {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0;
+        justify-content: center;
+    }
+    .order__input {
+        width: 140px;
+    }
+    .order__form img {
+        display: none;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .promotion .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .promotion__text, .promotion__timer {
+        width: 100%;
+    }
+
+}
+@media (max-width: 420px){
+    .container {
+        width: 300px
+    }
+    .offer__slider {
+        width: 290px;
+    }
+    .tabcontent__descr {
+        width: 300px;
+    }
+}
