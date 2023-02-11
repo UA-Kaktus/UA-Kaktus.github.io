@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="icon" type="image/x-icon" href="./icons/favicon.jpg">
+    <title>Brooke</title>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <div class="modal__close" data-close>&times;</div>
+                <div class="modal__title">Thank you!</div>
+                <div class="modal__descr">Your application was successfully submitted. We’ll contact You soon!</div>
+                <button class="modal__btn">OK</button>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu">
+        <div class="mobile-menu__divider"></div>
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__list-item"><a href="#process">Process</a></li>
+            <li class="mobile-menu__list-item"><a href="#marketing">Marketing Services</a></li>
+            <li class="mobile-menu__list-item"><a href="#news">News</a></li>
+            <li class="mobile-menu__list-item"><a href="#contact-us">Contact</a></li>
+        </ul>
+        <div class="mobile-menu__divider-bot"></div>
+        <div class="mobile-menu__mail">Brooke@BRSolutions.ca</div>
+        <div class="mobile-menu__social-wrapper">
+            <a href="#" class="footer__social-item">
+                <svg width="13" height="25" viewBox="0 0 19 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M15.5312 6.14354H19V0.260542C18.4015 0.180375 16.3434 0 13.9464 0C8.94509 0 5.51904 3.06329 5.51904 8.69346V13.875H0V20.4517H5.51904V37H12.2856V20.4533H17.5815L18.4221 13.8765H12.2841V9.34558C12.2856 7.44471 12.8113 6.14354 15.5312 6.14354Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <a href="#" class="footer__social-item">
+                <svg width="31" height="25" viewBox="0 0 48 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M43.068 9.726C45.02 8.34 46.662 6.61 48 4.618V4.616C46.214 5.398 44.314 5.918 42.33 6.17C44.37 4.952 45.928 3.038 46.66 0.732C44.758 1.866 42.658 2.666 40.42 3.114C38.614 1.19 36.04 0 33.232 0C27.784 0 23.398 4.422 23.398 9.842C23.398 10.622 23.464 11.372 23.626 12.086C15.446 11.686 8.206 7.766 3.342 1.792C2.494 3.266 1.994 4.952 1.994 6.766C1.994 10.174 3.748 13.194 6.366 14.944C4.784 14.914 3.234 14.454 1.92 13.732V13.84C1.92 18.622 5.33 22.594 9.804 23.51C9.002 23.73 8.13 23.834 7.224 23.834C6.594 23.834 5.958 23.798 5.362 23.666C6.636 27.562 10.256 30.428 14.556 30.522C11.208 33.14 6.956 34.718 2.354 34.718C1.548 34.718 0.774 34.682 0 34.584C4.36 37.394 9.524 39 15.096 39C32.462 39 43.78 24.512 43.068 9.726Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <a href="#" class="footer__social-item">
+                <svg width="28" height="25" viewBox="0 0 44 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M43.1207 23.8202V38.8521H33.9475V24.8269C33.9475 21.3037 32.6207 18.8992 29.3003 18.8992C26.7656 18.8992 25.2572 20.5197 24.5936 22.0872C24.3516 22.6475 24.2893 23.4275 24.2893 24.2119V38.8521H15.1131C15.1131 38.8521 15.2366 15.0981 15.1131 12.637H24.2884V16.3529C24.2698 16.3807 24.2457 16.4106 24.2281 16.4376H24.2884V16.3529C25.5075 14.5692 27.6846 12.0211 32.5575 12.0211C38.5948 12.021 43.1207 15.7679 43.1207 23.8202ZM5.51427 0C2.37507 0 0.321777 1.95611 0.321777 4.52847C0.321777 7.04476 2.31567 9.06024 5.39247 9.06024H5.45377C8.65376 9.06024 10.6439 7.04514 10.6439 4.52847C10.5836 1.95611 8.65376 0 5.51427 0ZM0.866768 38.8521H10.0396V12.637H0.866768V38.8521Z"
+                        fill="white" />
+                </svg>
+            </a>
+        </div>
+    </div>
+    <section class="header">
+        <div class="container">
+            <a href="#"><img src="./img/logo.png" alt="logo" class="logo"></a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item"><a href="#process">Process</a></li>
+                    <li class="menu__list-item"><a href="#marketing">Marketing Services</a></li>
+                    <li class="menu__list-item"><a href="#news">News</a></li>
+                    <li class="menu__list-item"><a href="#contact-us">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+    <div class="blunk-space"></div>
+    <section class="promo">
+        <div class="container">
+            <h1 class="promo__title">We think about people first</h1>
+            <div class="promo__description">
+                As consumer behaviour shifts across new media channels, brands have to adjust to the new ways we consume content and influence decision-making.
+                <br><br>
+                The old adage – reaching the right people, at the right time, with the right message – has never been more important for brands. <span>BRS is here to connect you.</span>
+            </div>
+        </div>
+    </section>
+    <section class="process" id="process">
+        <h2 class="process__title">Process</h2>
+        <div class="process__subtitle">To think people first, we need to actually think people first</div>
+        <div class="process__wrapper">
+            <div class="process__wrapper-row1">
+                <div class="process__item">
+                    <img src="icons/icon_people.png" alt="people">
+                    <h3 class="process__item-title">Audience deep dive</h3>
+                    <div class="process__item-descr">
+                        defining the motivation that nurtures a consumer through each part of your journey is pivotal to success. This will shape the content and media strategy that delivers on your bottom line.
+                    </div>
+                </div>
+                <div class="process__item">
+                    <img src="icons/icon_chess.png" alt="Strategy">
+                    <h3 class="process__item-title">Strategy</h3>
+                    <div class="process__item-descr">
+                        once we understand the consumer and their journey, we can define your content pillars and targeting framework to shape your go-to-market strategy.
+                    </div>
+                </div>
+                <div class="process__item">
+                    <img src="icons/icons_cloud.png" alt="Testing Framework">
+                    <h3 class="process__item-title">Testing Framework</h3>
+                    <div class="process__item-descr">
+                        if you hit a homerun on your first swing at bat, it’s an impressive day at the ballpark. We prefer to have a plan B and test with purpose.
+                    </div>
+                </div>
+            </div>
+            <div class="process__wrapper-row2">
+                <div class="process__item">
+                    <img src="icons/icon_diagram.png" alt="Optimise">
+                    <h3 class="process__item-title">Optimise</h3>
+                    <div class="process__item-descr">
+                        establish stability from purposeful testing. Set winning combinations as an always-on strategy and maintain testing to meet the needs of our evolving consumers.
+                    </div>
+                </div>
+                <div class="process__item">
+                    <img src="icons/icon_pointer.png" alt="Results">
+                    <h3 class="process__item-title">Results</h3>
+                    <div class="process__item-descr">
+                        our process delivers. We’ll be sure to show you.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="marketing">
+        <div class="container">
+            <h2 class="services__title">Marketing Services</h2>
+            <div class="services__subtitle">We believe in a marketing ecosystem that depends on content, organic and paid media efforts. All services can be packaged as a custom, a-la-carte package.</div>
+            <div class="services__wrapper">
+                <div class="services__item">
+                    <h3 class="services__item-title">Marketing Audits</h3>
+                    <div class="services__item-text">We can review your content, paid media, and/or brand positioning in the market to define the best way forward.</div>
+                    <img src="icons/arrow.png" alt="arrow" class="secvices__item-arrow">
+                    <ol class="services__item-list">
+                        <li>Social Media Audit</li>
+                        <li>Content Audit</li>
+                        <li>Brand Positioning Audit</li>
+                    </ol>
+                </div>
+                <div class="services__item">
+                    <h3 class="services__item-title">Content Marketing</h3>
+                    <div class="services__item-text">Understanding content and how that translates across different channels and audiences is our shining star. Contact us if you are looking for ways to elevate your content for immediate impact (ie. campaign-based) or for the long-term (ie. compounding results with SEO).</div>
+                    <img src="icons/arrow.png" alt="arrow" class="secvices__item-arrow">
+                    <ol class="services__item-list">
+                        <li>Editorial / Advertoria</li>
+                        <li>Social Media</li>
+                        <li>Blog Posts</li>
+                        <li>eNewsletters</li>
+                    </ol>
+                </div>
+                <div class="services__item">
+                    <h3 class="services__item-title">Social & Influencer Marketing</h3>
+                    <div class="services__item-text">We work with content creators, designers, video editors and more to break through the content clutter and drive business results.</div>
+                    <img src="icons/arrow.png" alt="arrow" class="secvices__item-arrow">
+                    <ol class="services__item-list">
+                        <li><span>Editorial / Blog Content</span> – we have journalists, script and other specialised writers available to meet your content needs</li>
+                        <li><span>Graphic Designers</span> – essential to creating a consistent look and feel, our designers create for the audience and medium with precision</li>
+                        <li><span>Influencers</span> – we build influencer campaigns that drive brand engagement through our partnerships with nano, micro and macro influencers</li>
+                    </ol>
+                </div>
+                <div class="services__item">
+                    <h3 class="services__item-title">Marketing Audits</h3>
+                    <div class="services__item-text">We can review your content, paid media, and/or brand positioning in the market to define the best way forward.</div>
+                    <img src="icons/arrow.png" alt="arrow" class="secvices__item-arrow">
+                    <ol class="services__item-list">
+                        <li>Social Media Audit</li>
+                        <li>Content Audit</li>
+                        <li>Brand Positioning Audit</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discuss">
+        <div class="container">
+            <div class="discuss__wrapper">
+                <div class="discuss__cta">
+                    <h2 class="discuss__title">Let’s discuss your project</h2>
+                    <img src="icons/arrow_horiz.png" alt="horizontal arrow">
+                </div>
+                <form action="#" class="discuss__form">
+                    <label><input type="text" placeholder="Name"></label>
+                    <label><input type="text" placeholder="Email"></label>
+                    <button class="discuss__form-btn"><span>GO</span><img src="icons/btn_arrow.png" alt="button arrow" class="inner-arrow"></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="news" id="news">
+        <h2 class="news__title">News</h2>
+        <div class="news__descr">
+            <span>Our CEO, Brooke Robinson, has a history of hitting home runs across the marketing landscape.</span> Along the way, she has surrounded herself with talented people to shape the first string team at BRS.
+        </div>
+        <div class="news__slider">
+            <div class="slider__wrapper">
+                <div class="slider__item" style="background-image: url('../img/news1_bl.jpg');">
+                    <h3 class="slider__item-title">How life insurance can help protect your assets — even if you’re young and single</h3>
+                    <div class="slider__item-descr">
+                        When life gets hard, you can find a little solace by being financially prepared...
+                    </div>
+                    <a href="news.html">
+                        <button class="slider__item-btn"><img src="./icons/news/arr_news.png" alt="arrow">Learn More</button>
+                    </a>
+                </div>
+                <div class="slider__item" style="background-image: url('../img/news2_bl.jpg');">
+                    <h3 class="slider__item-title">As Musk Wins Twitter, a New Adversary Looms: Advertisers</h3>
+                    <div class="slider__item-descr">
+                        Brooke Robinson, vice president of performance marketing at AdParlor, said making Twitter’s algorithm...
+                    </div>
+                    <a href="#">
+                        <button class="slider__item-btn"><img src="./icons/news/arr_news.png" alt="arrow">Learn More</button>
+                    </a>
+                </div>
+                <div class="slider__item" style="background-image: url('../img/news3_bl.jpg');">
+                    <h3 class="slider__item-title">Spotlight: Canada Food and Grocery Delivery Apps
+                    </h3>
+                    <div class="slider__item-descr">
+                        “Food service and review/recommendation engines are certainly taking home a larger share of advertising...
+                    </div>
+                    <a href="#">
+                        <button class="slider__item-btn"><img src="./icons/news/arr_news.png" alt="arrow">Learn More</button>
+                    </a>
+                </div>
+                <div class="slider__item" style="background-image: url('../img/news4_bl.jpg');">
+                    <h3 class="slider__item-title">Brooke Robinson Solutions - Website</h3>
+                    <div class="slider__item-descr">
+                        Beginning her career in social media marketing with Sun Life Financial in 2009, Brooke has vast work experience...
+                    </div>
+                    <a href="#">
+                        <button class="slider__item-btn"><img src="./icons/news/arr_news.png" alt="arrow">Learn More</button>
+                    </a>
+                </div>
+                <div class="slider__item">
+                    <h3 class="slider__item-title">How life insurance can help protect your assets — even if you’re young and single</h3>
+                    <div class="slider__item-descr">
+                        When life gets hard, you can find a little solace by being financially prepared...
+                    </div>
+                    <a href="#">
+                        <button class="slider__item-btn"><img src="./icons/news/arr_news.png" alt="arrow">Learn More</button>
+                    </a>
+                </div>
+                <div class="slider__item">
+                    <h3 class="slider__item-title">How life insurance can help protect your assets — even if you’re young and single</h3>
+                    <div class="slider__item-descr">
+                        When life gets hard, you can find a little solace by being financially prepared...
+                    </div>
+                    <a href="#">
+                        <button class="slider__item-btn"><img src="./icons/news/arr_news.png" alt="arrow">Learn More</button>
+                    </a>
+                </div>
+                <div class="slider__item">
+                    <h3 class="slider__item-title">How life insurance can help protect your assets — even if you’re young and single</h3>
+                    <div class="slider__item-descr">
+                        When life gets hard, you can find a little solace by being financially prepared...
+                    </div>
+                    <a href="#">
+                        <button class="slider__item-btn"><img src="./icons/news/arr_news.png" alt="arrow">Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="slider__nav">
+                <ol class="slider__nav-list">
+                </ol>
+            </div>
+        </div>
+        <div class="news__mobile-blocks">
+            <div class="slider__item" style="background-image: url('../img/news1_bl.jpg');">
+                <h3 class="slider__item-title">How life insurance can help protect your assets — even if you’re young and single</h3>
+                <div class="slider__item-descr">
+                    When life gets hard, you can find a little solace by being financially prepared...
+                </div>
+                <a href="news.html">
+                    <button class="slider__item-btn"><img src="./icons/news/arr_news.png" alt="arrow">Learn More</button>
+                </a>
+            </div>
+            <div class="slider__item" style="background-image: url('../img/news2_bl.jpg');">
+                <h3 class="slider__item-title">As Musk Wins Twitter, a New Adversary Looms: Advertisers</h3>
+                <div class="slider__item-descr">
+                    Brooke Robinson, vice president of performance marketing at AdParlor, said making Twitter’s algorithm...
+                </div>
+                <a href="#">
+                    <button class="slider__item-btn"><img src="./icons/news/arr_news.png" alt="arrow">Learn More</button>
+                </a>
+            </div>
+            <a href="#" class="article__link">
+                See more news
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.619 8.31874L9.30029 0L8.32078 0.979514L15.937 8.5957L0.704597 8.5957L0.702561 9.98249L15.9553 9.98249L8.31874 17.619L9.3003 18.6006L17.6211 10.2798L18.6006 9.3003L17.619 8.31874Z" fill="black"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <section class="contact-us" id="contact-us">
+        <div class="container">
+            <div class="contact-us__wrapper">
+                <div class="contact-us__left">
+                    <h2 class="contact-us__title">Contact US</h2>
+                    <img src="icons/arrow_horiz.png" alt="horizontal arrow">
+                </div>
+                <div class="contact-us__right">
+                    <div class="contact-us__icons">
+                        <a href="#" class="contact-us__icons-item">
+                            <svg width="19" height="37" viewBox="0 0 19 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.5312 6.14354H19V0.260542C18.4015 0.180375 16.3434 0 13.9464 0C8.94509 0 5.51904 3.06329 5.51904 8.69346V13.875H0V20.4517H5.51904V37H12.2856V20.4533H17.5815L18.4221 13.8765H12.2841V9.34558C12.2856 7.44471 12.8113 6.14354 15.5312 6.14354Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="contact-us__icons-item">
+                            <svg width="48" height="39" viewBox="0 0 48 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.068 9.726C45.02 8.34 46.662 6.61 48 4.618V4.616C46.214 5.398 44.314 5.918 42.33 6.17C44.37 4.952 45.928 3.038 46.66 0.732C44.758 1.866 42.658 2.666 40.42 3.114C38.614 1.19 36.04 0 33.232 0C27.784 0 23.398 4.422 23.398 9.842C23.398 10.622 23.464 11.372 23.626 12.086C15.446 11.686 8.206 7.766 3.342 1.792C2.494 3.266 1.994 4.952 1.994 6.766C1.994 10.174 3.748 13.194 6.366 14.944C4.784 14.914 3.234 14.454 1.92 13.732V13.84C1.92 18.622 5.33 22.594 9.804 23.51C9.002 23.73 8.13 23.834 7.224 23.834C6.594 23.834 5.958 23.798 5.362 23.666C6.636 27.562 10.256 30.428 14.556 30.522C11.208 33.14 6.956 34.718 2.354 34.718C1.548 34.718 0.774 34.682 0 34.584C4.36 37.394 9.524 39 15.096 39C32.462 39 43.78 24.512 43.068 9.726Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="contact-us__icons-item">
+                            <svg width="44" height="39" viewBox="0 0 44 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.1207 23.8202V38.8521H33.9475V24.8269C33.9475 21.3037 32.6207 18.8992 29.3003 18.8992C26.7656 18.8992 25.2572 20.5197 24.5936 22.0872C24.3516 22.6475 24.2893 23.4275 24.2893 24.2119V38.8521H15.1131C15.1131 38.8521 15.2366 15.0981 15.1131 12.637H24.2884V16.3529C24.2698 16.3807 24.2457 16.4106 24.2281 16.4376H24.2884V16.3529C25.5075 14.5692 27.6846 12.0211 32.5575 12.0211C38.5948 12.021 43.1207 15.7679 43.1207 23.8202ZM5.51427 0C2.37507 0 0.321777 1.95611 0.321777 4.52847C0.321777 7.04476 2.31567 9.06024 5.39247 9.06024H5.45377C8.65376 9.06024 10.6439 7.04514 10.6439 4.52847C10.5836 1.95611 8.65376 0 5.51427 0ZM0.866768 38.8521H10.0396V12.637H0.866768V38.8521Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="contact-us__icons-item">
+                            <svg width="54" height="39" viewBox="0 0 54 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.22 23.8992L3.15784 38.8603H51.733L35.5413 23.7049L37.2901 21.8269L53.9999 37.4357V1.42529L27.4455 26.8139L0.891113 1.42529V37.4357L17.4714 22.0212L19.22 23.8992Z" fill="white"/>
+                                <path d="M51.7977 0H3.09302L27.4454 23.2513L51.7977 0Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="contact-us__toronto">
+                        <img src="icons/flag_canada.jpg" alt="flag">
+                        <span>— Toronto, Ontario</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__wrapper-first">
+                <a href="#" class="footer__logo-link">
+                    <img src="./img/logo.png" alt="logotype" class="footer__logo-img">
+                </a>
+                <div class="footer__menu-wrapper">
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="#" class="footer__menu-link">Process</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__menu-link">Marketing Services</a>
+                        </li>
+                        <li class="footer__list-item"><a href="#" class="footer__menu-link">News</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__menu-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__wrapper-second">
+            <a href="#" class="footer__email">Brooke@BRSolutions.ca</a>
+
+            <div class="footer__social-wrapper">
+                <a href="#" class="footer__social-item">
+                    <svg width="13" height="25" viewBox="0 0 19 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15.5312 6.14354H19V0.260542C18.4015 0.180375 16.3434 0 13.9464 0C8.94509 0 5.51904 3.06329 5.51904 8.69346V13.875H0V20.4517H5.51904V37H12.2856V20.4533H17.5815L18.4221 13.8765H12.2841V9.34558C12.2856 7.44471 12.8113 6.14354 15.5312 6.14354Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                <a href="#" class="footer__social-item">
+                    <svg width="31" height="25" viewBox="0 0 48 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M43.068 9.726C45.02 8.34 46.662 6.61 48 4.618V4.616C46.214 5.398 44.314 5.918 42.33 6.17C44.37 4.952 45.928 3.038 46.66 0.732C44.758 1.866 42.658 2.666 40.42 3.114C38.614 1.19 36.04 0 33.232 0C27.784 0 23.398 4.422 23.398 9.842C23.398 10.622 23.464 11.372 23.626 12.086C15.446 11.686 8.206 7.766 3.342 1.792C2.494 3.266 1.994 4.952 1.994 6.766C1.994 10.174 3.748 13.194 6.366 14.944C4.784 14.914 3.234 14.454 1.92 13.732V13.84C1.92 18.622 5.33 22.594 9.804 23.51C9.002 23.73 8.13 23.834 7.224 23.834C6.594 23.834 5.958 23.798 5.362 23.666C6.636 27.562 10.256 30.428 14.556 30.522C11.208 33.14 6.956 34.718 2.354 34.718C1.548 34.718 0.774 34.682 0 34.584C4.36 37.394 9.524 39 15.096 39C32.462 39 43.78 24.512 43.068 9.726Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                <a href="#" class="footer__social-item">
+                    <svg width="28" height="25" viewBox="0 0 44 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M43.1207 23.8202V38.8521H33.9475V24.8269C33.9475 21.3037 32.6207 18.8992 29.3003 18.8992C26.7656 18.8992 25.2572 20.5197 24.5936 22.0872C24.3516 22.6475 24.2893 23.4275 24.2893 24.2119V38.8521H15.1131C15.1131 38.8521 15.2366 15.0981 15.1131 12.637H24.2884V16.3529C24.2698 16.3807 24.2457 16.4106 24.2281 16.4376H24.2884V16.3529C25.5075 14.5692 27.6846 12.0211 32.5575 12.0211C38.5948 12.021 43.1207 15.7679 43.1207 23.8202ZM5.51427 0C2.37507 0 0.321777 1.95611 0.321777 4.52847C0.321777 7.04476 2.31567 9.06024 5.39247 9.06024H5.45377C8.65376 9.06024 10.6439 7.04514 10.6439 4.52847C10.5836 1.95611 8.65376 0 5.51427 0ZM0.866768 38.8521H10.0396V12.637H0.866768V38.8521Z"
+                            fill="white" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer__divider"></div>
+
+        <div class="footer__wrapper-third">
+            <div class="footer__copyright">
+                Copyright © 2022 Brooke Robinson. All Rights Reserved.
+            </div>
+            <a href="#" class="footer__policy">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</html>
