@@ -158,6 +158,7 @@ document.addEventListener("DOMContentLoaded",()=> {
     //Моб меню
     const mobMenu = document.querySelector('.mobile-menu');
     const burger = document.querySelector('.hamburger');
+    const mobLinks = document.querySelectorAll('.mobile-menu__list-item');
     let mobMenuActive = false;
     
     burger.addEventListener('click', (e) => {
@@ -174,5 +175,13 @@ document.addEventListener("DOMContentLoaded",()=> {
         }
     });
 
+    mobLinks.forEach(el => el.addEventListener('click', ()=> {
+        if (mobMenuActive) {
+            burger.classList.remove('hamburger-active');
+            mobMenu.style.left = "-100%";
+            mobMenuActive = false;
+            document.body.style.overflow = '';
+        }
+    }));
 
 });
