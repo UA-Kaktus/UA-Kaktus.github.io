@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    background: #fbfbfb;
+}
+
+@keyframes initial-out {
+    from {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+._animated-item-1, ._animated-item-2, ._animated-item-3 {
+    opacity: 0;
+}
+.animate-fade-out {
+    animation: initial-out .5s ease-out;
+    opacity: 1;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.main_head{
+    padding: 10px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.head_nav_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo > img {
+    width: 120px;
+}
+
+.item_phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_phone{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.item_phone > a {
+    color: #000;
+    text-decoration: none;
+}
+
+.img_phone > img {
+    width: 20px;
+    height: 20px;
+}
+
+.images_banner > img {
+    width: 100%;
+    height: auto;
+}
+
+ul.nav_items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+
+.nav_items > li > a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.nav_items > li > a:hover{
+    text-decoration: underline;
+    color: #084928;
+}
+
+.btn_app,
+.send_btn{
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background: #084928;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    box-sizing: border-box;
+}
+
+.btn_app:hover, .send_btn:hover {
+    border: 1px solid #084928;
+    color: #084928;
+    background-color: #fff;
+}
+
+.list_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    line-height: normal;
+}
+.list_social a svg path{
+    transition: .5s;
+}
+
+.list_social a:hover svg path {
+    fill: #084928;
+}
+
+.overlay {
+   
+   /* Скрываем подложку  */
+   opacity: 0;
+   visibility: hidden;
+   
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, .5);
+   z-index: 20;
+   transition: .3s all;
+}
+
+
+/* Стили для модальных окон */
+
+.modal {
+   
+   opacity: 0;
+   visibility: hidden;
+   width: 100%;
+   max-width: 500px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 30; /* Должен быть выше чем у подложки*/
+   box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2); 
+   text-align: center;
+   padding: 30px;
+   border-radius: 3px;
+   background-color: #fff;
+   transition: 0.3s all;
+}
+
+
+/* Стили для активных классов подложки и окна */
+
+.modal.active,
+.overlay.active{
+   opacity: 1;
+   visibility: visible;
+}
+
+
+/* Стили для кнопки закрытия */
+
+.modal__cross {
+   width: 15px;
+   height: 15px;
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   fill: #444;
+   cursor: pointer;
+}
+
+.form_field > input,
+.form_field > textarea{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.mobile_head{
+    display: none;
+}
+
+.btn_app_m{
+    display: none;
+}
+
+.map_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.map_contact {
+    display: block;
+    width: 50%;
+}
+
+.logo_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.adres_contact {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.phone_contact > .list_phone > .item_phone {
+    justify-content: center;
+} 
+
+.phone_contact {
+    padding-bottom: 15px;
+}
+
+.btn_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+/* Нижче допишу стилі для правки сайту */
+
+.services {
+    padding: 60px 0;
+}
+
+.services p {
+    font-size: 20px;
+}
+
+.services__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.services__item {
+    background-color: #084928;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+}
+
+.services__item-title {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.services__item ul {
+    list-style-type: none;
+}
+
+.services__item ul li {
+    position: relative;
+}
+
+.services__item ul li img {
+    position: absolute;
+    left: -30px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.row__text ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+.row__text ul li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #084928;
+    transform: rotate(45deg);
+    box-sizing: border-box;
+}
+
+.row__img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.row__text ul li{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.about_us {
+    font-size: 20px;
+}
+
+.about_us h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.nav_mobile:hover {
+    cursor: pointer;
+}
+
+.burger {
+    top: 20px;
+    right: 20px;
+    height: 22px;
+    width: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    cursor: pointer;
+    z-index: 15;
+    opacity: 1;
+    transition: 1s;
+}
+.burger span {
+    height: 3px;
+    width: 30px;
+    background: black;
+    transition: .4s;
+}
+.burger-active{
+    transform: none;
+}
+
+.burger-active span{
+    margin-bottom: -3px;
+}
+
+.burger-active span:nth-child(1){
+    transform: rotate(-45deg);
+    position: relative;
+    top: 11px;
+}
+
+.burger-active span:nth-child(2) {
+    display: none;
+}
+
+.burger-active span:nth-child(3) {
+    transform: rotate(45deg);
+    position: relative;
+    top: -11px;
+}
+
+.mobile-menu {
+    position: fixed;
+    background: #084928;
+    width: 100%;
+    height: 100vh;
+    z-index: 5;
+    left: -100%;
+    transition: all 0.6s;
+    padding-top: 100px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.mobile-menu_active {
+    left: 0;
+}
+.mobile-menu_items {
+    font-size: 30px;
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.mobile-menu_items a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.mobile-menu_adress {
+    font-size: 24px;
+}
+.divider {
+    width: 40%;
+    margin: 50px auto 50px 0;
+    height: 4px;
+    display: block;
+    background-color: #fff;
+
+}
+
+@media (max-width: 1200px) {
+    .services__wrapper {
+        grid-template-columns: 1fr;
+    }
+    .deskotp-header .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+
+@media screen and (max-width: 995px) {
+    
+    h1{
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+    }
+    
+    h2{
+        font-size: 22px;
+        text-align: center;
+    }
+   .deskotp-header{
+       display: none;
+   } 
+   .mobile_head{
+    display: block;
+    position: fixed;
+    width: 100%;
+    background: #f1f1f1;
+    z-index: 10;
+   }
+   
+   .logo_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   }
+   
+   .logo_block > img {
+       width: 98px;
+       margin-right: 8px;
+   }
+   
+   .list_phone{
+       display: flex;
+       gap: 20px;
+   }
+   
+   .item_phone > a {
+       color: #000;
+    text-decoration: none;
+    font-size: 14px;
+   }
+   
+   .mobile_head > .container{
+       max-width: 90%;
+   }
+   
+    .mobile_menu{
+        height: auto;
+        width: 0;
+        position: absolute;
+        top: 0;
+        background-color: #fff;
+        border-left: 1px solid #fff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        z-index: 9999;
+        box-shadow: 0px 0px 29px rgba(0, 0, 0, 0.1);
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        left: 0;
+    }
+
+    .head_menu_m {
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    }
+
+    .mobile_list_menu {
+    list-style: none;
+    padding: 10px;
+    }
+
+    .mobile_list_menu > li{
+        margin-bottom: 10px;
+    }
+
+    .mobile_list_menu > li > a {
+        color: #000;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .images_banner{
+        padding-top: 80px;
+    }
+
+    .btn_app_m{
+    display: block;
+        position: fixed;
+        bottom: 0;
+        padding: 10px;
+        width: 100%;
+        color: #fff;
+        border: none;
+        background: #084928;
+        font-size: 20px;
+        z-index: 6;
+    }
+
+    .modal{
+            max-width: calc(100% - 20%);
+    }
+
+    .map_text {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .map_contact {
+        display: block;
+        width: 100%;
+    }
+
+    .text_contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .adres_contact{
+        text-align: center;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+    .list_phone {
+        flex-direction: column;
+        gap: unset;
+    }
+    .logo_block > img {
+        width: 70px;
+    }
+    .about_us h2 {
+        font-size: 24px;
+    }
+    .services {
+        padding: 40px 0;
+    }
+    .services__item-title {
+        font-size: 24px;
+    }
+}
