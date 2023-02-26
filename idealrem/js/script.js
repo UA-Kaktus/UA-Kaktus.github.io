@@ -96,6 +96,38 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     }
 
+    //Слайдер з відгуками
+    const slidesBlock = document.querySelector('.carousel__inner'),
+          leftArrow = document.querySelector('.carousel__left'),
+          rightArrow = document.querySelector('.carousel__right'),
+          slides = document.querySelectorAll('.carousel__item');
+    let counterSlide = 0;
+
+    let slideWidth = window.getComputedStyle(slides[0]).width;
+    let offset = +slideWidth.slice(0, -2) + 20;
+
+    leftArrow.addEventListener('click', e => {
+        if (counterSlide > 0) {
+            counterSlide --;
+            slidesBlock.style.left = `-${offset * counterSlide}px`;
+        } else {
+            e.target.classList.add('slider-arrow-anim-l');
+            setTimeout(()=> {
+                e.target.classList.remove('slider-arrow-anim-l');
+            },300);
+        }
+    });
+    rightArrow.addEventListener('click', e => {
+        if (counterSlide < slides.length - 1) {
+            counterSlide ++;
+            slidesBlock.style.left = `-${offset * counterSlide}px`;
+        } else {
+            e.target.classList.add('slider-arrow-anim-r');
+            setTimeout(()=> {
+                e.target.classList.remove('slider-arrow-anim-r');
+            },300);
+        }
+    });
 
 }); // end ready
 
