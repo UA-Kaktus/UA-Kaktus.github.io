@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Test project</title>
+</head>
+<body>
+    <div class="calc">
+        <div class="calc__storage">
+            <div class="calc__text-wrapper"><span>Storage :</span><input name="storage-value" value="500" type="number">GB</div>
+            <div class="calc__input-wrapper"><input name="storage" type="range" min="0" max="1000"></div>
+        </div>
+        <div class="calc__transfer">
+            <div class="calc__text-wrapper"><span>Transfer :</span><input name="transfer-value" value="500" type="number">GB</div>
+            <div class="calc__input-wrapper"><input name="transfer" type="range" min="0" max="1000"></div>
+        </div>
+        <div class="calc__main">
+            <div class="calc__titles">
+                <div class="calc__titles_item"><span>backblaze</span></div>
+                <div class="calc__titles_item calc__titles_item-big">
+                    <span>bunny</span>
+                    <label>HDD<input id="hdd-disk" name="disk" type="radio" checked></label>
+                    <label>SSD<input id="ssd-disk" name="disk" type="radio"></label>
+                </div>
+                <div class="calc__titles_item calc__titles_item-big">
+                    <span>scaleway</span>
+                    <label>Multi<input id="multi-option" name="option" type="radio"></label>
+                    <label>Single<input id="single-option" name="option" type="radio" checked></label>
+                </div>
+                <div class="calc__titles_item"><span>vultr</span></div>
+            </div>
+            <div class="calc__icons">
+                <img src="./icons/blaze_ico.png" alt="backblaze icon">
+                <img src="./icons/bunny_ico.png" alt="bunny icon">
+                <img src="./icons/scale_ico.svg" alt="scaleway icon">
+                <img src="./icons/vultr_ico.webp" alt="vultr icon">
+            </div>
+            <div class="calc__graph">
+                <div class="calc__graph-item"><span>cost</span></div>
+                <div class="calc__graph-item"><span>cost</span></div>
+                <div class="calc__graph-item"><span>cost</span></div>
+                <div class="calc__graph-item"><span>cost</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bundle.js"></script>
+</body>
+</html>
