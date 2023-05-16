@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <title>Окна и балконы под ключ в Днепре</title>
+</head>
+<body>
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__headline">Просто заполните форму заявки</div>
+            <div class="modal__subtitle">и мы перезвоним вам в течении 10 минут</div>
+            <form action="#" class="form form_mt25">
+                <input name='name' type="text" required placeholder='Ваше имя' class="form__input">
+                <input name="phone" type="number" required placeholder='Ваш телефон' class="form__input">
+                <textarea name="message" placeholder="Дополнительная информация" rows="5"></textarea>
+                <button class="button-order">отправить заявку</button>
+            </form>
+        </div> 
+    </div>
+
+    <div class="mobile-menu">
+        <div class="mobile-menu__body">
+            <a href="#" data-modal class="button-menu">Заказать звонок</a>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Фотогаллерея</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu__divider"></div>
+            <div class="mobile-menu__contact">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/>
+                </svg>
+                <div class="mobile-menu__company-phones">
+                    <a href="tel:0676332301">067 633 23 01</a>
+                    <a href="tel:0953290397">095 329 03 97</a>
+                </div>
+            </div>
+            <div class="mobile-menu__contact">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
+                </svg>                         
+                <div class="mobile-menu__company-adress">
+                    <span>г. Днепр</span>
+                    <span>просп. Слобожанский 14a</span>
+                    <span>бывший просп. Правды</span>
+                </div>
+            </div>
+            <div class="mobile-menu__search-input">
+                <input type="text" placeholder="Поиск">
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="menu">
+            <div class="menu-main">
+                <div class="container">
+                    <div class="menu-main__col">
+                        <img class="company-logo" src="./assets/icons/logo.png" alt="logo">
+                        <div class="company-name">
+                            <span>Окна Днепр</span>
+                            <span>Окна и балконы под ключ</span>
+                        </div>
+                    </div>
+                    <div class="menu-main__col">
+                        <div class="search-input">
+                            <input type="text" placeholder="Поиск">
+                        </div>
+                    </div>
+                    <div class="menu-main__col">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
+                        </svg>                         
+                        <div class="company-adress">
+                            <span>г. Днепр</span>
+                            <span>просп. Слобожанский 14a</span>
+                            <span>бывший просп. Правды</span>
+                        </div>
+                    </div>
+                    <div class="menu-main__col">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/>
+                        </svg>
+                        <div class="company-phones">
+                            <a href="tel:0676332301">067 633 23 01</a>
+                            <a href="tel:0953290397">095 329 03 97</a>
+                        </div>
+                    </div>
+                    <div class="mobile-burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-list">
+                <div class="container">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Фотогаллерея</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                    <a href="#" data-modal class="button-menu">Заказать звонок</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="first-screen">
+        <div class="container">
+            <div class="first-screen__wrapper">
+                <div class="first-screen__wrapper-col">
+                    <img src="./assets/img/okno1.png" alt="window">
+                    <h1>Окна и балконы под ключ от производителя №1 в Украине</h1>
+                    <div class="order-wrapp">
+                        <div class="order-item">
+                            <span>С 2004 года на рынке</span>
+                            <span>Монтаж по ГОСТ</span>
+                            <a href="#" class="button-order" data-modal>Заказать окно</a>
+                        </div>
+                        <div class="order-item">
+                            <span>Более 8000 довольных клиентов</span>
+                            <span>Полная гарантия 5 лет</span>
+                            <a href="#" class="button-order" data-modal>Заказать балкон</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="first-screen__wrapper-col">
+                    <img src="./assets/img/vizitka.png" alt="vizit">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offers">
+        <div class="slider">
+            <button class="slider-left">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/>
+                </svg>
+            </button>
+            <button class="slider-right">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
+                </svg>
+            </button>
+            <div class="slider-wrapper">
+                <div class="slider-item">
+                    <h3>СПЕЦПРЕДЛОЖЕНИЕ СЕЗОНА</h3>
+                    <div class="slider-item__main">
+                        <p>При заказе окна STEKO дарим инновационный пакет DoubleSilver в подарок</p>
+                        <img src="./assets/img/doublesilverstat.jpg" alt="table">
+                    </div>
+                    <div class="slider-item__sub">
+                        <img src="./assets/img/doublesilver.png" alt="window image">
+                    </div>
+                </div>
+                <div class="slider-item" style="background-color: blue;">
+                    <h2>some text 12</h2>
+                    <p>text1</p>
+                </div>
+                <div class="slider-item" style="background-color: green;">
+                    <h2>some text 43</h2>
+                    <p>text2</p>
+                </div>
+                <div class="slider-item" style="background-color: yellow;">
+                    <h2>some text 65</h2>
+                    <p>text3</p>
+                </div>
+                <div class="slider-item" style="background-color: gray;">
+                    <h2>some text 65</h2>
+                    <p>text3</p>
+                </div>
+            </div>
+            <div class="slider-dots">
+            </div>
+        </div>
+    </section>
+
+    <section class="calc">
+        <div class="container">
+            <h2>Оконный калькулятор</h2>
+            <div class="calc-wrapper">
+                <div class="calc-tabs">
+                    <div class="calc-tabs__item calc-tabs__item-active" data-type="window" data-kof="2000">
+                        <img src="./assets/img/calc_01.jpg" alt="tab 1">
+                        <input data-side="vertical" type="range" min="1400" max="1600">
+                        <input data-side="horizontal" type="range" min="800" max="1000">
+                        <span data-value="horizontal"></span>
+                        <span data-value="vertical"></span>
+                    </div>
+                    <div class="calc-tabs__item" data-type="double-window" data-kof="3000">
+                        <img src="./assets/img/calc_02.jpg" alt="tab 2">
+                        <input data-side="vertical" type="range" min="1400" max="1600">
+                        <input data-side="horizontal" type="range" min="1300" max="1500">
+                        <span data-value="horizontal"></span>
+                        <span data-value="vertical"></span>
+                    </div>
+                    <div class="calc-tabs__item" data-type="triple-window" data-kof="3000">
+                        <img src="./assets/img/calc_03.jpg" alt="tab 3">
+                        <input data-side="vertical" type="range" min="1400" max="1600">
+                        <input data-side="horizontal" type="range" min="1800" max="2600">
+                        <span data-value="horizontal"></span>
+                        <span data-value="vertical"></span>
+                    </div>
+                    <div class="calc-tabs__item" data-type="door" data-kof="2000">
+                        <img src="./assets/img/calc_04.jpg" alt="tab 4">
+                        <input data-side="vertical" type="range" min="1400" max="1600">
+                        <input data-side="horizontal" type="range" min="1350" max="1550">
+                        <span data-value="horizontal"></span>
+                        <span data-value="vertical"></span>
+                        <input data-side="vertical1" type="range" min="2150" max="2350">
+                        <input data-side="horizontal1" type="range" min="700" max="900">
+                        <span data-value="horizontal1"></span>
+                        <span data-value="vertical1"></span>
+                    </div>
+                    <div class="calc-tabs__item" data-type="lodge" data-kof="3000">
+                        <img src="./assets/img/calc_05.jpg" alt="tab 5">
+                        <input data-side="vertical" type="range" min="1500" max="1700">
+                        <input data-side="horizontal" type="range" min="2400" max="3200">
+                        <span data-value="horizontal"></span>
+                        <span data-value="vertical"></span>
+                    </div>
+                    <div class="calc-tabs__item" data-type="balkony" data-kof="3000">
+                        <img src="./assets/img/calc_06.jpg" alt="tab 6">
+                        <input data-side="vertical" type="range" min="1500" max="1700">
+                        <input data-side="horizontal" type="range" min="3000" max="3200">
+                        <span data-value="horizontal"></span>
+                        <span data-value="vertical"></span>
+                        <input data-side="horizontal1" type="range" min="800" max="1000">
+                        <span data-value="horizontal1"></span>
+                        <input data-side="horizontal2" type="range" min="800" max="1000">
+                        <span data-value="horizontal2"></span>
+                    </div>
+                </div>
+                <div class="calc-main">
+                    <div class="calc-main__list">
+                        <div class="calc-main__list-item calc-main__list-active">
+                            <img src="./assets/img/calc1.png" alt="variant 1">
+                            <span>Одностворчатое окно</span>
+                        </div>
+                        <div class="calc-main__list-item">
+                            <img src="./assets/img/calc2.png" alt="variant 2">
+                            <span>Двухстворчатое окно</span>
+                        </div>
+                        <div class="calc-main__list-item">
+                            <img src="./assets/img/calc3.png" alt="variant 3">
+                            <span>Трехстворчатое окно</span>
+                        </div>
+                        <div class="calc-main__list-item">
+                            <img src="./assets/img/calc4.png" alt="variant 4">
+                            <span>Балконный блок</span>
+                        </div>
+                        <div class="calc-main__list-item">
+                            <img src="./assets/img/calc5.png" alt="variant 5">
+                            <span>Лоджия</span>
+                        </div>
+                        <div class="calc-main__list-item">
+                            <img src="./assets/img/calc6.png" alt="variant 6">
+                            <span>Балкон</span>
+                        </div>
+                    </div>
+                    <div class="calc-main__price">
+                        <span>Стоимость окна:</span>
+                        <span class="calc-main__price-num">дохуя грн</span>
+                    </div>
+                    <div class="calc-main__descr">
+                        * Данная стоимость является предварительной. Просчитана стандартная стоимость окна c доставкой, без дополнительной комплектации. Более точную стоимость расчитает наш менеджер в течении 5 минут.
+                    </div>
+                    <a href="" class="button-order2" data-modal>Получить детальный расчет</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="production-slider">
+        <div class="container">
+            <div class="production-slider__wrapper">
+                <div class="production-slider__main">
+                    <h3>Наша продукция</h3>
+                    <div class="slider">
+                        <button class="slider-left">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/>
+                            </svg>
+                        </button>
+                        <button class="slider-right">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
+                            </svg>
+                        </button>
+                        <div class="slider-wrapper">
+                            <div class="slider-item">
+                                <div class="slider-item__img">
+                                    <span>WDS 500</span>
+                                    <img src="./assets/img/wds500.jpg" alt="example window">
+                                </div>
+                                <div class="slider-item__description">
+                                    <img src="./assets/img/akcia.jpg" alt="optional image" class="slider-item__optional-img">
+                                    <p>Только у нас:
+                                        Комплект WDS 500
+                                        по цене WDS 400!</p>
+                                    <a href="#" class="button-order" data-modal>Узнать стоимость</a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__img">
+                                    <span>WDS 400</span>
+                                    <img src="./assets/img/wds400.jpg" alt="example window">
+                                </div>
+                                <div class="slider-item__description">
+                                    <img src="./assets/img/topprod.jpg" alt="optional image" class="slider-item__optional-img">
+                                    <p>Для людей, которые предпочитают простоту классического окна. Окна WDS 400 удобны в эксплуатации и не требуют дополнительного ухода.</p>
+                                    <a href="#" class="button-order" data-modal>Узнать стоимость</a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__img">
+                                    <span>Steko S500</span>
+                                    <img src="./assets/img/s500.jpg" alt="example window">
+                                </div>
+                                <div class="slider-item__description">
+                                    <span>Теплая система премиум-класса</span>
+                                    <p>Профильная система высочайшего класса, топ-качество по разумной цене. Сделано в Украине. 
+                                        В комплект входит москитная сетка, отлив оцинкованный белый 120 мм и подоконник 250 мм RIF белый матовый.</p>
+                                    <a href="#" class="button-order" data-modal>Узнать стоимость</a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__img">
+                                    <span>Steko S300</span>
+                                    <img src="./assets/img/s300.jpg" alt="example window">
+                                </div>
+                                <div class="slider-item__description">
+                                    <img src="./assets/img/supercena.jpg" alt="optional image" class="slider-item__optional-img">
+                                    <p>Steko S300 – это возможность установить новые окна или двери и при этом не переплачивать за дорогой импортный профиль.</p>
+                                    <a href="#" class="button-order" data-modal>Узнать стоимость</a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__img">
+                                    <span>Steko R500</span>
+                                    <img src="./assets/img/r500.jpg" alt="example window">
+                                </div>
+                                <div class="slider-item__description">
+                                    <span>Европейское качество</span>
+                                    <p>Высокий уровень тепло- и звукоизоляции.
+                                        Устойчив к свету окружающей среды и ультрафиолету.
+                                        Не меняет своих характеристик     под воздействием низких температур — до минус 20 градусов.</p>
+                                    <a href="#" class="button-order" data-modal>Узнать стоимость</a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__img">
+                                    <span>Rehau EURO60</span>
+                                    <img src="./assets/img/euro60.jpg" alt="example window">
+                                </div>
+                                <div class="slider-item__description">
+                                    <span>Сделано в Польше</span>
+                                    <p>Трехкамерная профильная система от Rehau имеет гладкую и стабильную по цвету поверхность, два контура уплотнения, элегантную геометрию, отличные показатели тепло-, шумоизоляции, а главное – доступная по цене.</p>
+                                    <a href="#" class="button-order" data-modal>Узнать стоимость</a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__img">
+                                    <span>Rehau EURO70</span>
+                                    <img src="./assets/img/euro70.jpg" alt="example window">
+                                </div>
+                                <div class="slider-item__description">
+                                    <span>Комфортно и светло</span>
+                                    <p>Окна из профиля REHAU EURO 70  соединяют в себе серьезные показатели звукоизоляции, защиту от шума и пыли, высокие энергосберегающие характеристики и элегантный внешний вид.</p>
+                                    <a href="#" class="button-order" data-modal>Узнать стоимость</a>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__img">
+                                    <span>Rehau Brilliant</span>
+                                    <img src="./assets/img/brilliant.jpg" alt="example window">
+                                </div>
+                                <div class="slider-item__description">
+                                    <span>Страсть к особенному</span>
+                                    <p>Окна премиум-класса, способны удовлетворить самым высоким техническим и эстетическим требованиям элитного строительства. 
+                                        Оконные профили REHAU BRILLANT-Design требуют минимального ухода и идеальны в эксплуатации.</p>
+                                    <a href="#" class="button-order" data-modal>Узнать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-dots">
+                        </div>
+                    </div>
+                </div>
+                <div class="production-slider__form">
+                    <form action="#" class="form">
+                        <div class="form__title">
+                            Оставьте заявку на БЕСПЛАТНЫЙ расчет стоимости установки окон для Вас
+                        </div>
+                        <input class="form__input" type="text" name="size" placeholder="Размер окна">
+                        <input class="form__input" type="number" name="phone" placeholder="Ваш номер телефона">
+                        <a href="#" class="button-order2">Рассчитать стоимость</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-work">
+        <div class="container">
+            <h2>Примеры наших работ с ценами</h2>
+            <div class="our-work__wrapper">
+                <div class="our-work__item">
+                    <img src="./assets/photo/01.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">22 000 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+                <div class="our-work__item">
+                    <img src="./assets/photo/02.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">18 000 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+                <div class="our-work__item">
+                    <img src="./assets/photo/03.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">5 000 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+                <div class="our-work__item">
+                    <img src="./assets/photo/04.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">8 800 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+                <div class="our-work__item">
+                    <img src="./assets/photo/05.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">19 000 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+                <div class="our-work__item">
+                    <img src="./assets/photo/06.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">9 500 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+                <div class="our-work__item">
+                    <img src="./assets/photo/07.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">6 000 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+                <div class="our-work__item">
+                    <img src="./assets/photo/08.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">19 500 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+                <div class="our-work__item">
+                    <img src="./assets/photo/09.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">4 500 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+                <div class="our-work__item">
+                    <img src="./assets/photo/10.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">5 000 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+                <div class="our-work__item">
+                    <img src="./assets/photo/11.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">17 000 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+                <div class="our-work__item">
+                    <img src="./assets/photo/12.jpg" alt="example of work">
+                    <div class="our-work__item-info">
+                        <span class="our-work__item-price">18 000 грн.</span>
+                        <a href="#" class="our-work__item-button" data-modal>Хочу такой же</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="collage">
+        <div class="container">
+            <h2>Реставрация балкона в 6 шагов</h2>
+            <div class="collage__wrapper">
+                <div class="collage__main">
+                    <div class="collage__main-item main-item__active">
+                        <img src="./assets/photo/01.jpg" alt="stage 1">
+                    </div>
+                    <div class="collage__main-item">
+                        <img src="./assets/photo/02.jpg" alt="stage 2">
+                    </div>
+                    <div class="collage__main-item">
+                        <img src="./assets/photo/03.jpg" alt="stage 3">
+                    </div>
+                    <div class="collage__main-item">
+                        <img src="./assets/photo/04.jpg" alt="stage 4">
+                    </div>
+                    <div class="collage__main-item">
+                        <img src="./assets/photo/05.jpg" alt="stage 5">
+                    </div>
+                    <div class="collage__main-item">
+                        <img src="./assets/photo/06.jpg" alt="stage 6">
+                    </div>
+                </div>
+                <div class="collage__nav">
+                    <div class="collage__nav-item nav-item__active">Замер</div>
+                    <div class="collage__nav-item">Сварочные работы</div>
+                    <div class="collage__nav-item">Наружная обшивка</div>
+                    <div class="collage__nav-item">Етап 4</div>
+                    <div class="collage__nav-item">Етап 5</div>
+                    <div class="collage__nav-item">Установка окон</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="credit">
+        <div class="container">
+            <div class="credit-wrapper">
+                <div class="credit-main">
+                    <h3>Получи <strong>100%</strong> "Теплый кредит" от <span>IQ ENERGY</span>
+                        С компенсацией <strong>35%</strong></h3>
+                    <a href="#" class="button-order2" data-modal>Получить консультацию</a>
+                    <div class="credit-main__logogroup">
+                        <img src="./assets/img/IQ_energy.jpg" alt="credit logo2">
+                        <img src="./assets/img/2usb.jpg" alt="credit logo1">
+                    </div>
+                </div>
+                <div class="credit-img">
+                    <img src="./assets/img/teplyydom.png" alt="credit image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="triggers">
+        <div class="container">
+            <h2>Мы предлагаем</h2>
+            <div class="triggers-wrapper">
+                <div class="triggers-item">
+                    <img src="./assets/icons/icon1.png" alt="trigger 1">
+                    <span>Гарантия 5 лет</span>
+                </div>
+                <div class="triggers-item">
+                    <img src="./assets/icons/icon2.png" alt="trigger 2">
+                    <span>Установка за 1 день</span>
+                </div>
+                <div class="triggers-item">
+                    <img src="./assets/icons/icon3.png" alt="trigger 3">
+                    <span>Подбор материалов</span>
+                </div>
+                <div class="triggers-item">
+                    <img src="./assets/icons/icon4.png" alt="trigger 4">
+                    <span>Срок службы окон - 50 лет</span>
+                </div>
+                <div class="triggers-item">
+                    <img src="./assets/icons/icon5.png" alt="trigger 5">
+                    <span>Глянцевый профиль</span>
+                </div>
+                <div class="triggers-item">
+                    <img src="./assets/icons/icon6.png" alt="trigger 6">
+                    <span>Сохранение 92% тепла</span>
+                </div>
+                <div class="triggers-item">
+                    <img src="./assets/icons/icon7.png" alt="trigger 7">
+                    <span>Снижение шума до 40 дБ</span>
+                </div>
+                <div class="triggers-item">
+                    <img src="./assets/icons/icon8.png" alt="trigger 8">
+                    <span>Больше света на 23,5%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="window-detail">
+        <h2>Как мы сохраняем тепло и уют</h2>
+        <img src="./assets/img/teplo.jpg" alt="window">
+    </section>
+
+    <section class="akcia">
+        <div class="container">
+            <div class="akcia-wrapper">
+                <img src="./assets/img/okno1.png" alt="window">
+                <div class="akcia-description">
+                    <h2>АКЦИЯ</h2>
+                    <span>Максимальная комплектация ПО ЦЕНЕ БАЗОВОЙ!</span>
+                    <p>Оставьте заявку прямо сейчас и получите МАКСИМАЛЬНУЮ комплектацию по цене базовой!</p>
+                    <div class="akcia-timer">
+                        <div class="title">Осталось до конца акции:</div>
+                        <div class="timer">
+                            <div class="timer__block">
+                                <span id="days">12</span>
+                                дней
+                            </div>
+                            <div class="timer__block">
+                                <span id="hours">20</span>
+                                часов
+                            </div>
+                            <div class="timer__block">
+                                <span id="minutes">56</span>
+                                минут
+                            </div>
+                            <div class="timer__block">
+                                <span id="seconds">20</span>
+                                секунд
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form action="#" class="form">
+                    <div class="form__title">
+                        Оставьте заявку на БЕСПЛАТНЫЙ расчет стоимости установки окон для Вас
+                    </div>
+                    <input class="form__input" type="text" name="size" placeholder="Размер окна">
+                    <input class="form__input" type="number" name="phone" placeholder="Ваш номер телефона">
+                    <a href="#" class="button-order2">Рассчитать стоимость</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="balkony">
+        <div class="balkony-headline">
+            <h3>Остекление балконов</h3>
+            <span>С сохранением до 90% тепла</span>
+        </div>
+        <div class="container">
+            <div class="balkony__examples">
+                <div class="balkony__examples-item">
+                    <img src="./assets/img/001.jpg" alt="balkony example">
+                    <span>Французский балкон</span>
+                </div>
+                <div class="balkony__examples-item">
+                    <img src="./assets/img/002.jpg" alt="balkony example">
+                    <span>Балкон под ключ</span>
+                </div>
+                <div class="balkony__examples-item">
+                    <img src="./assets/img/003.jpg" alt="balkony example">
+                    <span>Балкон с нуля</span>
+                </div>
+                <div class="balkony__examples-item">
+                    <img src="./assets/img/004.jpg" alt="balkony example">
+                    <span>Пристройки под ключ</span>
+                </div>
+            </div>
+            <div class="balkony__main">
+                <ul>
+                    <li>Теплоизоляция</li>
+                    <li>Шумоизоляция</li>
+                    <li>Расширение площади</li>
+                    <li>Гарантия безопасности</li>
+                </ul>
+                <div class="balkony__main-img">
+                    <img src="./assets/img/examples_balkon.jpg" alt="balkony">
+                </div>
+                <div class="balkony__main-accent">
+                    <h3>Фишка сезона 2022</h3>
+                    <span>Увеличение балкона вдвое! Можно сделать отдельную комнату, кабинет.</span>
+                    <img src="./assets/img/uvel.jpg" alt="balkony">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="CTA">
+        <span>Хотите такой балкон?</span>
+        <span>Оставьте БЕСПЛАТНУЮ заявку и мы свяжемся с Вами для обсуждения деталей.</span>
+        <form class="CTA-form" action="#">
+            <input type="text" placeholder="Ваше имя">
+            <input type="number" placeholder="Ваш номер телефона">
+            <a href="#" class="button-order2">Отправить заявку</a>
+        </form>
+    </section>
+
+    <section class="best-price">
+        <div class="container">
+            <h2>Лучшие цены на балконы в Днепре</h2>
+            <div class="best-price__wrapper">
+                <div class="best-price__wrapper-left">
+                    <span>Сравнение цен на остекление балконов в Днепре, состоянием на март 2022</span>
+                    <img src="./assets/img/sravnen.png" alt="graph">
+                    <span>Оставьте заявку на бесплатный расчет стоимости Вашего балкона. Узнайте точную смету уже через 15 минут</span>
+                </div>
+                <div class="best-price__wrapper-right">
+                    <span>Нашли дешевле? Звоните</span>
+                    <div class="best-price__phones">
+                        <a href="tel:0676332301">067 633 23 01</a>
+                        <a href="tel:0953290397">095 329 03 97</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stages">
+        <div class="container">
+            <h2>Порядок работы</h2>
+            <div class="stages-wrapper">
+                <div class="stages-wrapper__item">
+                    <img src="./assets/img/etap1.png" alt="stage 1">
+                    <span>Вы звоните нам или оставляете заявку на сайте</span>
+                </div>
+                <div class="stages-wrapper__item">
+                    <img src="./assets/img/etap2.png" alt="stage 2">
+                    <span>Мы обсуждаем все детали и составляем договор</span>
+                </div>
+                <div class="stages-wrapper__item">
+                    <img src="./assets/img/etap3.png" alt="stage 3">
+                    <span>Производим замер и установку Ваших окон</span>
+                </div>
+                <div class="stages-wrapper__item">
+                    <img src="./assets/img/etap4.png" alt="stage 4">
+                    <span>Наслаждайтесь Вашим новым окном!</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="spec-offer">
+        <div class="container">
+            <div class="spec-offer__wrapper">
+                <img src="./assets/img/zamer.png" alt="zamer">
+                <div class="spec-offer__description">
+                    <h2>СПЕЦПРЕДЛОЖЕНИЕ</h2>
+                    <span>Оставьте заявку сейчас и получите БЕСПЛАТНЫЙ расчет стоимости Вашего окна</span>
+                </div>
+                <form action="#" class="form">
+                    <div class="form__title">
+                        Оставьте заявку на БЕСПЛАТНЫЙ расчет стоимости установки окон для Вас
+                    </div>
+                    <input class="form__input" type="text" name="size" placeholder="Размер окна">
+                    <input class="form__input" type="number" name="phone" placeholder="Ваш номер телефона">
+                    <a href="#" class="button-order2">Рассчитать стоимость</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-slider">
+        <div class="container">
+            <div class="work-slider__wrapper">
+                <div class="slider">
+                    <h3>Наши работы</h3>
+                    <button class="slider-left">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/>
+                        </svg>
+                    </button>
+                    <button class="slider-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
+                        </svg>
+                    </button>
+                    <div class="slider-wrapper">
+                        <div class="slider-item">
+                            <img src="./assets/photo/slide1.jpg" alt="window image">
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/photo/slide2.jpg" alt="window image">
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/photo/slide3.jpg" alt="window image">
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/photo/slide4.jpg" alt="window image">
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/photo/slide5.jpg" alt="window image">
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/photo/slide6.jpg" alt="window image">
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/photo/slide7.jpg" alt="window image">
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/photo/slide8.jpg" alt="window image">
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/photo/slide9.jpg" alt="window image">
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/photo/slide10.jpg" alt="window image">
+                        </div>
+                    </div>
+                    <div class="slider-dots">
+                    </div>
+                </div>
+                <img src="./assets/img/patrul.png" alt="patrul">
+            </div>
+        </div>
+    </section>
+
+    <section class="additional-services">
+        <div class="container">
+            <h2>Дополнительные услуги</h2>
+            <div class="additional-services__wrapper">
+                <div class="additional-services__item">
+                    Бесплатный замер
+                </div>
+                <div class="additional-services__item">
+                    Утепление балкона
+                </div>
+                <div class="additional-services__item">
+                    Вывоз мусора
+                </div>
+                <div class="additional-services__item">
+                    Установка за 1 день
+                </div>
+                <div class="additional-services__item">
+                    Бесплатная доставка
+                </div>
+                <div class="additional-services__item">
+                    Расширение балкона
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="akcia">
+        <div class="container">
+            <div class="akcia-wrapper">
+                <img src="./assets/img/okno1.png" alt="window">
+                <div class="akcia-description">
+                    <h2>АКЦИЯ</h2>
+                    <span>Максимальная комплектация ПО ЦЕНЕ БАЗОВОЙ!</span>
+                    <p>Оставьте заявку прямо сейчас и получите МАКСИМАЛЬНУЮ комплектацию по цене базовой!</p>
+                    <div class="akcia-timer">
+                        <div class="title">Осталось до конца акции:</div>
+                        <div class="timer">
+                            <div class="timer__block">
+                                <span id="days2">12</span>
+                                дней
+                            </div>
+                            <div class="timer__block">
+                                <span id="hours2">20</span>
+                                часов
+                            </div>
+                            <div class="timer__block">
+                                <span id="minutes2">56</span>
+                                минут
+                            </div>
+                            <div class="timer__block">
+                                <span id="seconds2">20</span>
+                                секунд
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form action="#" class="form">
+                    <div class="form__title">
+                        Оставьте заявку на БЕСПЛАТНЫЙ расчет стоимости установки окон для Вас
+                    </div>
+                    <input class="form__input" type="text" name="size" placeholder="Размер окна">
+                    <input class="form__input" type="number" name="phone" placeholder="Ваш номер телефона">
+                    <a href="#" class="button-order2">Рассчитать стоимость</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="vent">
+        <div class="container">
+            <div class="vent-wrapper">
+                <div class="vent-wrapper__column">
+                    <div class="vent-wrapper__triggers">
+                        <div class="vent-wrapper__triggers-item">
+                            <img src="./assets/img/r1.jpg" alt="trigger image">
+                            <span>Аллергия, головные боли, дискомфорт, чрезмерная усталость?</span>
+                        </div>
+                        <div class="vent-wrapper__triggers-item">
+                            <img src="./assets/img/r2.jpg" alt="trigger image">
+                            <span>Постоянно потеют окна, повышенная влажность в помещении?</span>
+                        </div>
+                        <div class="vent-wrapper__triggers-item">
+                            <img src="./assets/img/r3.jpg" alt="trigger image">
+                            <span>Грибок и плесень на стене?</span>
+                        </div>
+                    </div>
+                    <h3>Если Вам это знакомо - Вам нужна вентиляция</h3>
+                    <img src="./assets/img/vent_img.png" alt="ventil image">
+                </div>
+                <div class="vent-wrapper__column">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HrGvty0b1YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p>Рекуператор Prana - это приточно-вытяжная вентиляция для дома. Система выводит из помещения загрязненный микрочастицами воздух и обеспечивает приток свежего воздуха снаружи. При этом чистый и грязный воздух не смешивается, а междуканальная передача тепла обеспечивает эффективность системы в любую погоду. Рекуператор одинаково работает как зимой так и летом, кроме того у Вас есть возможность вручную регулировать объем входящего и уходящего воздуха.</p>
+                    <div class="vent-wrapper__small-teriggers">
+                        <span>Стены без грибка</span>
+                        <span>Прозрачные окна</span>
+                        <span>Свежий воздух</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="CTA">
+        <span>Чтобы узнать стоимость и получить консультацию специалиста, заполните форму ниже</span>
+        <form class="CTA-form" action="#">
+            <input type="text" placeholder="Ваше имя">
+            <input type="number" placeholder="Ваш номер телефона">
+            <a href="#" class="button-order2">Отправить заявку</a>
+        </form>
+    </section>
+
+    <section class="otkos-first">
+        <div class="container">
+            <div class="otkos-first__wrapper">
+                <div class="otkos-first__text">
+                    <span>Высококачественные материалы</span>
+                    <span>Монтаж в течении часа</span>
+                    <span>Нет трещин</span>
+                    <span>Защита от грибка и плесени</span>
+                </div>
+                <div class="otkos-first__block">
+                    <img src="./assets/img/l1.png" alt="slope logo">
+                    <h3>Минеральные откосы на основе белого цемента</h3>
+                    <p>Представляем вашему вниманию готовые минеральные откосы, предназначенные для оформления периметра окон и дверей, внутри и снаружи помещений.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="otkos-second">
+        <div class="container">
+            <h3>Преимущества откосов Slope</h3>
+            <div class="otkos-second__wrapper">
+                <div class="otkos-second__item">
+                    Откосы ТМ Slope выполнены из экологически чистых вяжущих материалов на основе белого цемента и других минеральных наполнителей высокого качества.
+                </div>
+                <div class="otkos-second__item">
+                    Откос армирован оцинкованной сеткой, что делает его очень прочным, а также пропитан гидрофобизатором, с помощью которого повышаются физико-химические свойства изделия.
+                </div>
+                <div class="otkos-second__item">
+                    Откос сформирован так, что внешний угол имеет окончательную форму. Изделие имеет идеально гладкую поверхность.
+                </div>
+                <div class="otkos-second__item">
+                    Изделие готово под окраску.
+                </div>
+                <div class="otkos-second__item">
+                    Откос комплектуется пластиковым профилем для примыкания окна, что позволяет навсегда избавиться от трещин по периметру, которые зачастую образуются в местах примыкания окна c откосом. 
+                </div>
+                <div class="otkos-second__item">
+                    Профиль примыкания имеет на торце двухстороннюю вспененную ленту с помощью которой профиль легко устанавливается на раму окна.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="container">
+            <div class="video-wrapper">
+                <div class="video-item">
+                    <span>Почему запотевают пластиковые окна, решение проблемы</span>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JPTYy5X0ZfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <span>Автоматический клапан приточной вентиляции AERECO</span>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cJeYdTBwpXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <span>МИРОПЛАСТ. Фильм о компании</span>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/duVh8hgXeNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <span>Монтаж окон по ГОСТу</span>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EhvN2q73KBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4445.877350750947!2d35.06793148170758!3d48.50381779753606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d95864bb122f9b%3A0xb38add62e0d86b4b!2z0L_RgNC-0YHQv9C10LrRgiDQodC70L7QsdC-0LbQsNC90YHRjNC60LjQuSwgNjPQsCwg0JTQvdGW0L_RgNC-LCDQlNC90ZbQv9GA0L7Qv9C10YLRgNC-0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!5e0!3m2!1suk!2sua!4v1639125572599!5m2!1suk!2sua" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <div class="mobile-menu__contact">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/>
+                        </svg>
+                        <div class="mobile-menu__company-phones">
+                            <a href="tel:0676332301">067 633 23 01</a>
+                            <a href="tel:0953290397">095 329 03 97</a>
+                        </div>
+                    </div>
+                    <div class="mobile-menu__contact">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
+                        </svg>                         
+                        <div class="mobile-menu__company-adress">
+                            <span>г. Днепр</span>
+                            <span>просп. Слобожанский 14a</span>
+                            <span>бывший просп. Правды</span>
+                        </div>
+                    </div>
+                    <a href="#" class="button-menu" data-modal>Заказать звонок</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="#">Фотогаллерея</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                        <li><a href="#">О Нас</a></li>
+                        <li><a href="#">Политика конф.</a></li>
+                        <li><a href="#">Карта Сайта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Каталог</h3>
+                    <ul>
+                        <li><a href="#">Пластиковые окна</a></li>
+                        <li><a href="#">Остекление балконов</a></li>
+                        <li><a href="#">Балконы под ключ</a></li>
+                        <li><a href="#">Французский балкон</a></li>
+                        <li><a href="#">Утепление балконов</a></li>
+                        <li><a href="#">Обшивка балкона</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
