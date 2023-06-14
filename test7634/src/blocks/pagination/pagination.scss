@@ -1,0 +1,39 @@
+.pagination {
+    display: flex;
+    gap: 12px;
+
+    &__item {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 500;
+        color: #404B52;
+        background-color: #F5F5F5;
+        border-radius: 4px;
+        transition: .4s;
+        cursor: pointer;
+
+        &:hover:not(.pagination__item_current) {
+            background-color: rgba($color: #5932EA, $alpha: .8);
+            color: #ffffff;
+
+            svg path {
+                fill: #ffffff;
+            }
+        }
+
+        &_current {
+            color: #ffffff;
+            background-color: #5932EA;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .pagination {
+        gap: 8px;
+    }
+}

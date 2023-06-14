@@ -1,0 +1,28 @@
+.search {
+    &__input {
+        background-color: #F9FBFF;
+        border: none;
+        padding: 10px 10px 10px 40px;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #B5B7C0;
+    }
+
+    &__label {
+        position: relative;
+        display: block;
+
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10px;
+            background: url('./assets/blocks/search/search-icon.svg') center center / cover no-repeat;
+        }
+    }
+}

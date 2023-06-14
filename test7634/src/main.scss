@@ -1,0 +1,18 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding-inline-start: 0;
+    list-style: none;
+    margin: 0;
+}
+
+@import './blocks/wrapper/wrapper.scss';
+@import './blocks/navigation/navigation.scss';
+@import './blocks/customers/customers.scss';
+@import './blocks/pagination/pagination.scss';
+@import './blocks/search/search.scss';

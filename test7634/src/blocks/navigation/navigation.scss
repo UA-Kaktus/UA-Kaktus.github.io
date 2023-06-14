@@ -1,0 +1,122 @@
+.navigation {
+    background-color: #FFFFFF;
+    width: 306px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 36px 28px 78px 28px;
+    min-height: 100vh;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        img {
+            width: 36px;
+        }
+    }
+
+    &__title {
+        font-size: 26px;
+        font-weight: 600;
+
+        span {
+            font-size: 10px;
+            font-weight: 500;
+        }
+    }
+
+    &__menu {
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        gap: 16px;
+
+        &-item {
+            display: flex;
+            align-items: center;
+            position: relative;
+            font-size: 14px;
+            color: #9197B3;
+            font-weight: 500;
+            gap: 14px;
+            padding: 11px;
+            border-radius: 8px;
+            transition: .4s;
+            cursor: pointer;
+
+            &:hover:not(.navigation__menu-item_active) {
+                background-color: rgba($color: #5932EA, $alpha: .8);
+                color: #fff;
+
+                svg path {
+                    stroke: #ffffff;
+                }
+            }
+
+            svg {
+                width: 24px;
+            }
+
+            &_active {
+                background-color: #5932EA;
+                color: #fff;
+                
+                svg path {
+                    stroke: #fff;
+                }
+            }
+        }
+    }
+
+    &__arrow {
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &__manager {
+        display: flex;
+        gap: 12px;
+
+        img {
+            border-radius: 100%;
+        }
+
+        &-name {
+            font-size: 14px;
+        }
+
+        &-position {
+            font-size: 12px;
+            color: #757575;
+            font-weight: 400;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .navigation {
+        width: 280px;
+        padding: 32px 24px 70px 24px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navigation {
+        width: 270px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navigation {
+        position: absolute;
+        left: -100%;
+        z-index: 4;
+        transition: .7s;
+        box-shadow: 0 10px 60px rgba(226,236,249,.5);
+    }
+}
