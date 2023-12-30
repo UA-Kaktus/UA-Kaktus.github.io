@@ -1,14 +1,31 @@
 {
   "files": {
-    "main.css": "/ny24/static/css/main.3e25faed.css",
-    "main.js": "/ny24/static/js/main.b56b527d.js",
+    "main.css": "/ny24/static/css/main.d62b8aca.css",
+    "main.js": "/ny24/static/js/main.91d3b2b0.js",
+    "static/media/present2.jpg": "/ny24/static/media/present2.a59cede75734f0aeac0d.jpg",
+    "static/media/present1.jpg": "/ny24/static/media/present1.7356ce0754c27721cc3d.jpg",
+    "static/media/deers.jpg": "/ny24/static/media/deers.41c6ece2beb4ad7b2b22.jpg",
+    "static/media/tbbt1.jpeg": "/ny24/static/media/tbbt1.2b1fac30025c3c99f928.jpeg",
+    "static/media/floun.webp": "/ny24/static/media/floun.3d55340ad823939309cd.webp",
+    "static/media/divan.jpg": "/ny24/static/media/divan.c6f1e3ca59e3661d1b4e.jpg",
+    "static/media/table.jpg": "/ny24/static/media/table.32fe3140a33dd3bd177c.jpg",
+    "static/media/bulka.png": "/ny24/static/media/bulka.327c6d618bdb4f100e1e.png",
+    "static/media/paper.jpeg": "/ny24/static/media/paper.9f0ec6f0c4ee47b121e6.jpeg",
+    "static/media/diogen.jpg": "/ny24/static/media/diogen.d25a674e954c00d5eac6.jpg",
+    "static/media/pralka.webp": "/ny24/static/media/pralka.6c258c60392171aae525.webp",
+    "static/media/cardbox.png": "/ny24/static/media/cardbox.08aef1b043077494ac63.png",
+    "static/media/cardbox1.png": "/ny24/static/media/cardbox1.639141c81e38974ac14d.png",
+    "static/media/patrik.jpeg": "/ny24/static/media/patrik.33d8cb95dad597096404.jpeg",
+    "static/media/ariel.webp": "/ny24/static/media/ariel.e58a3042c93c23c25873.webp",
+    "static/media/garry.jpeg": "/ny24/static/media/garry.9d0e2b1cd9c3f7bfd6c8.jpeg",
     "static/media/cat2.jpeg": "/ny24/static/media/cat2.e881319149c63e945ee4.jpeg",
+    "static/media/bob.jpeg": "/ny24/static/media/bob.1c543f5dbea9e1443ac4.jpeg",
     "index.html": "/ny24/index.html",
-    "main.3e25faed.css.map": "/ny24/static/css/main.3e25faed.css.map",
-    "main.b56b527d.js.map": "/ny24/static/js/main.b56b527d.js.map"
+    "main.d62b8aca.css.map": "/ny24/static/css/main.d62b8aca.css.map",
+    "main.91d3b2b0.js.map": "/ny24/static/js/main.91d3b2b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e25faed.css",
-    "static/js/main.b56b527d.js"
+    "static/css/main.d62b8aca.css",
+    "static/js/main.91d3b2b0.js"
   ]
 }
