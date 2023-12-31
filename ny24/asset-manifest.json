@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/ny24/static/css/main.d62b8aca.css",
-    "main.js": "/ny24/static/js/main.91d3b2b0.js",
+    "main.css": "/ny24/static/css/main.02bf1d68.css",
+    "main.js": "/ny24/static/js/main.d05f650d.js",
     "static/media/present2.jpg": "/ny24/static/media/present2.a59cede75734f0aeac0d.jpg",
+    "static/media/levin1.jpeg": "/ny24/static/media/levin1.c3bac587d911a2c9ba4b.jpeg",
     "static/media/present1.jpg": "/ny24/static/media/present1.7356ce0754c27721cc3d.jpg",
+    "static/media/mam2.jpg": "/ny24/static/media/mam2.c24eac63ce15124b3850.jpg",
+    "static/media/avangers.jpg": "/ny24/static/media/avangers.dbc6cd3bbcdf80807947.jpg",
     "static/media/deers.jpg": "/ny24/static/media/deers.41c6ece2beb4ad7b2b22.jpg",
     "static/media/tbbt1.jpeg": "/ny24/static/media/tbbt1.2b1fac30025c3c99f928.jpeg",
     "static/media/floun.webp": "/ny24/static/media/floun.3d55340ad823939309cd.webp",
+    "static/media/ted.jpeg": "/ny24/static/media/ted.6dddf62144a3da5c6f3a.jpeg",
     "static/media/divan.jpg": "/ny24/static/media/divan.c6f1e3ca59e3661d1b4e.jpg",
     "static/media/table.jpg": "/ny24/static/media/table.32fe3140a33dd3bd177c.jpg",
     "static/media/bulka.png": "/ny24/static/media/bulka.327c6d618bdb4f100e1e.png",
     "static/media/paper.jpeg": "/ny24/static/media/paper.9f0ec6f0c4ee47b121e6.jpeg",
     "static/media/diogen.jpg": "/ny24/static/media/diogen.d25a674e954c00d5eac6.jpg",
+    "static/media/eminem.jpeg": "/ny24/static/media/eminem.b1b768e306b2d09a3634.jpeg",
+    "static/media/mam4.jpeg": "/ny24/static/media/mam4.d76ab0ec5aeae2c75a41.jpeg",
     "static/media/pralka.webp": "/ny24/static/media/pralka.6c258c60392171aae525.webp",
     "static/media/cardbox.png": "/ny24/static/media/cardbox.08aef1b043077494ac63.png",
     "static/media/cardbox1.png": "/ny24/static/media/cardbox1.639141c81e38974ac14d.png",
@@ -21,11 +27,11 @@
     "static/media/cat2.jpeg": "/ny24/static/media/cat2.e881319149c63e945ee4.jpeg",
     "static/media/bob.jpeg": "/ny24/static/media/bob.1c543f5dbea9e1443ac4.jpeg",
     "index.html": "/ny24/index.html",
-    "main.d62b8aca.css.map": "/ny24/static/css/main.d62b8aca.css.map",
-    "main.91d3b2b0.js.map": "/ny24/static/js/main.91d3b2b0.js.map"
+    "main.02bf1d68.css.map": "/ny24/static/css/main.02bf1d68.css.map",
+    "main.d05f650d.js.map": "/ny24/static/js/main.d05f650d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d62b8aca.css",
-    "static/js/main.91d3b2b0.js"
+    "static/css/main.02bf1d68.css",
+    "static/js/main.d05f650d.js"
   ]
 }
