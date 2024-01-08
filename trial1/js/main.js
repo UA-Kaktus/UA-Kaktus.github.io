@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-getData('../source.json');
+getData('./../source.json');
 
 function getData(url) {
     fetch(url).
